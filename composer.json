@@ -1,18 +1,18 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
+    "name": "hinchk/zorkery-cli",
+    "description": "Zork-Style Guided Stories using Laravel Zero.",
     "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "homepage": "https://imustnotfear.net",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
+        "issues": "https://github.com/hinchk/zorkery-cli/issues",
+        "source": "https://github.com/hinchk/zorkery-cli"
     },
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Kasey Hinchman",
+            "email": "kasey.hinchman@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +20,8 @@
         "illuminate/log": "^8.0",
         "laminas/laminas-text": "^2.8",
         "laravel-zero/framework": "^8.7",
-        "nunomaduro/laravel-console-menu": "^3.2"
+        "nunomaduro/laravel-console-menu": "^3.2",
+        "padraic/phar-updater": "^1.0.6"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
